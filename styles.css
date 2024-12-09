@@ -131,40 +131,22 @@ body {
 }
 
 /* Media Query untuk Responsivitas */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 467px) {
   .sidebar {
     width: 200px; /* Lebar sidebar pada layar kecil */
+    display: none; /* Sembunyikan sidebar pada layar kecil */
   }
 
-  .sidebar a {
-    font-size: 16px; /* Ukuran font lebih kecil pada layar kecil */
+  .hamburger-menu {
+    display: block; /* Tampilkan hamburger menu */
   }
 
   .main-content {
-    margin-left: 200px; /* Mengurangi margin konten utama pada layar kecil */
+    margin-left: 0; /* Mengatur margin konten utama */
   }
 
   .header {
-    padding: 10px 15px; /* Padding lebih kecil pada layar kecil */
-  }
-
-  .search-bar input {
-    width: 150px; /* Lebar input lebih kecil pada layar kecil */
-  }
-}
-
-/* Media Query untuk Responsivitas */
-@media screen and (max-width: 768px) {
-  .sidebar {
-    width: 200px; /* Lebar sidebar pada layar kecil */
-  }
-
-  .sidebar a {
-    font-size: 16px; /* Ukuran font lebih kecil pada layar kecil */
-  }
-
-  .main-content {
-    margin-left: 200px; /* Mengurangi margin konten utama pada layar kecil */
+    padding: 10px 15px;
   }
 }
 
